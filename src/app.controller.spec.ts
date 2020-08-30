@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should return "Desafio 05 - Github CI"', () => {
+      expect(appController.getHello()).toBe('Desafio 05 - Github CI');
     });
   });
 });
