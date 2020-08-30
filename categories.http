@@ -1,0 +1,11 @@
+POST http://localhost:3000/categories
+Content-type: application/json
+
+{
+  "name": "nestjs"
+}
+
+###
+
+GET http://localhost:3000/categories
+Content-type: application/json
